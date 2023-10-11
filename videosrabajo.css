@@ -1,0 +1,98 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* SECCION RESPONSIVE */
+@media screen and (min-width: 480px){
+   
+    .videos_trabajos{ 
+     
+        display: block;
+        text-align: center;
+      margin-left: -95px;
+           
+    }
+   
+         
+    
+    
+    
+    
+    
+    
+
+}
+@media screen and (max-width:800px){
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+@media screen and (min-width: 1024px){
+    /*responsive banner*/
+    
+  
+    .videos_trabajos{ 
+   
+        display: flex;
+        text-align: center;
+        margin-left: 0px;
+     
+           
+    }
+  
+  
+                                                                        
+  
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  

@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{ font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans',
+	sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+	 'Noto Color Emoji';
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+	background: #D4D4D4;
+	font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+
+.wrap{
+	margin-top: 1px;
+	width: 100%;
+	
+	
+	
+	
+	
+}
+
+.tabs{
+	
+	height: 20px;
+	top: 5px;
+	
+	list-style: none;
+	display: flex;
+	
+}
+ul.tabs{
+	border-style:outset;
+	
+	width: 92%;
+	height: 50px;
+	
+	list-style: none;
+	display: flex;
+	
+}
+
+ul.tabs li{
+	margin: 1px;
+	margin-left: 2px;
+	padding: 2px;
+	color:blue;
+	margin-top: 25px;
+	width: 15.3%;
+	height: 20px;
+}
+
+ul.tabs li a{
+	margin: 2px;
+	margin-left: 1px;
+	margin-right: -1px;
+	margin-top: -15px;
+	height: 28px;
+	border-radius: 15%  15%  0% 0%;
+	border: 1px solid green;
+	width: 100px;
+	color:blue;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans',
+	 sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+	  'Noto Color Emoji';
+	text-align: center;
+	box-shadow: 10px 10px 30px rgb(0, 0, 0);
+	display: block;
+	padding: 4px 1px;
+}
+
+.active {
+	color: #fff;
+	font-style: oblique;
+	background: #92ace0;
+	
+}
+.tab-text{
+	color:black;
+}
+ul.tabs li a .tab-text{
+	margin-left: 4px;
+}
+
+.tab-text:hover{
+	color:blue;
+	transition: 0.5s all;
+}
+
+
+.secciones{
+	
+	width: 100%;
+	background: #fff;
+	
+}
+
+.secciones article{
+	z-index: 5000px;
+	border-radius: 30px;
+	margin-top: 4px;
+	padding: 10px;
+	 width: 660px;
+	 box-shadow: 10px 10px 20px  #92ace0; 
+	 position: absolute;
+
+	
+}
+.secciones article::after{
+	margin-left: -70px;
+	position: absolute;
+	content: "";
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid transparent;
+	border-bottom: 20px solid white;
+	bottom: 100%;
+	left: 100px;
+}
+
+.uno{
+	
+	background: white;
+	margin-top: -10px;
+	margin-left: 5px;
+	
+	left: 10px;
+}
+.dos{
+	background: white;
+	margin-top: -10px;
+	margin-left: 100px;
+	
+}
+.tres{
+	
+	background: white;
+	margin-top: -10px;
+	margin-left: 210px;
+	
+}
+.cuatro{
+
+	background: white;
+	margin-top: -10px;
+	margin-left: 310px;
+	
+}
+.cuatro p{
+	text-justify: auto;
+	
+	margin-left: 10px;	
+    margin-right: 10px;
+	
+}
+
+
+.proyectos{
+display: flex;
+
+
+}
+
+
+
+
+
+
+
+.secciones{
+
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),	  
+	url("img/f6.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-color:#92ace0;
+	
+	
+	
+		
+	
+}
+
+.secciones article p{
+	
+	text-align: justify;
+}
+.cursos {
+	top: 500px;
+	
+}
+.nav-bar {
+	margin-left: 60px;
+	margin-top: 40px;
+	}
+
+.enlace{
+	
+	font-style: oblique;
+	cursor: pointer;
+	color: #92ace0;
+	
+}
+.enlace:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	padding: auto;
+	color: rgb(0, 183, 255);
+	
+	box-shadow: 0 0 20px #fff;
+	
+}
+.enlace2{
+	
+	font-style: oblique;
+	cursor: pointer;
+	color: #92ace0;
+	
+}
+.enlace2:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	padding: auto;
+	color: rgb(0, 183, 255);
+	
+	box-shadow: 0 0 20px #fff;
+	
+}
+button{
+	border-style:solid;
+	border-color: gray;
+	cursor: pointer;
+	color: blue;
+	
+}
+button:hover{
+	background-color: #92ace0;
+	
+	box-shadow: 0 0 20px #fff;
+	
+	
+	
+}
+button2{
+	border-style:solid;
+	border-color: gray;
+	cursor: pointer;
+	color: blue;
+	
+}
+button2:hover{
+	background-color: #92ace0;
+	
+	box-shadow: 0 0 20px #fff;
+	
+	
+	
+}
+@media screen and (min-width: 1200px){
+	ul.tabs{
+		border-style:outset;
+		
+		width: 32%;
+		height: 50px;
+		
+		list-style: none;
+		display: flex;
+		
+	}
+	
+	
+	ul.tabs li{
+		margin: 1px;
+		margin-left: 2px;
+		padding: 2px;
+		color:blue;
+		margin-top: 25px;
+		width: 15.3%;
+		height: 20px;
+	}
+	
+	ul.tabs li a{
+		margin: 2px;
+		margin-left: 1px;
+		margin-right: -1px;
+		margin-top: -15px;
+		height: 28px;
+		border-radius: 15%  15%  0% 0%;
+		border: 1px solid blue;
+		width: 100px;
+		color:blue;
+		text-decoration: none;
+		font-size: 13px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Noto Sa
+		 sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg
+		  'Noto Color Emoji';
+		text-align: center;
+		box-shadow: 10px 10px 30px rgb(0, 0, 0);
+		display: block;
+		padding: 10px 1px;
+	}
+	
+	
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+
+@media screen and (max-width: 700px){
+	ul.tabs li a{
+		margin: 2px;
+		margin-left: 1px;
+		margin-right: -1px;
+		margin-top: -15px;
+		height: 28px;
+		border-radius: 15%  15%  0% 0%;
+		border: 1px solid green;
+		width: 100px;
+		color:blue;
+		text-decoration: none;
+		font-size: 13px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans',
+		 sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI 
+		  'Noto Color Emoji';
+		text-align: center;
+		box-shadow: 10px 10px 30px rgb(0, 0, 0);
+		display: block;
+		padding: 4px 1px;
+	}
+	
+	
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (min-width: 450px){
+	
+
+.secciones article{
+	z-index: 5000px;
+	border-radius: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 460px;
+	box-shadow: 10px 10px 20px  #92ace0; 
+	position: absolute;
+	border-style: groove;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.secciones  .dos::after{
+		margin-left: 55px;
+		position: absolute;
+		content: "";
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid white;
+		bottom: 100%;
+		left: 100px;
+		
+	}
+	.secciones .dos::before {
+			content: "";
+			position: absolute;
+			top: -25px;
+			left: 150px;
+			width: 0;
+			height: 0;
+			border-width: 0 25px 25px;
+			border-style: solid;
+			border-color: transparent transparent white;
+				
+		
+	}
+	.secciones  .tres::after{
+		margin-left: 155px;
+		position: absolute;
+		content: "";
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid white;
+		bottom: 100%;
+		left: 100px;
+		
+	}
+	.secciones .tres::before {
+		content: "";
+		position: absolute;
+		top: -25px;
+		left: 250px;
+		width: 0;
+		height: 0;
+		border-width: 0 25px 25px;
+		border-style: solid;
+		border-color: transparent transparent white;
+			
+	
+   }
+
+   .secciones  .cuatro::after{
+	margin-left: 255px;
+	position: absolute;
+	content: "";
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid white;
+	bottom: 100%;
+	left: 100px;
+	
+}
+.secciones .cuatro::before {
+		content: "";
+		position: absolute;
+		top: -25px;
+		left: 350px;
+		width: 0;
+		height: 0;
+		border-width: 0 25px 25px;
+		border-style: solid;
+		border-color: transparent transparent white;
+			
+	
+}
+
+
+	.uno{
+	
+		background: white;
+		margin-top: -10px;
+		margin-left: 5px;
+		
+		left: 10px;
+	}
+	.dos{
+		background: white;
+		margin-top: -10px;
+		margin-left: 5px;
+		
+	}
+	.tres{
+		
+		background: white;
+		margin-top: -10px;
+		margin-left: 5px;
+		
+	}
+	.cuatro{
+	
+		background: white;
+		margin-top: -10px;
+		margin-left: 5px;
+		
+	}
+
+}
+@media screen and (min-width: 1000px){
+
+	.secciones article{
+		z-index: 5000px;
+		border-radius: 30px;
+		margin-top: 10px;
+		padding: 10px;
+		width: 1060px;
+		box-shadow: 10px 10px 20px  #92ace0; 
+		position: absolute;
+		border-style: groove;
+		
+		}
+  
+   
+   
+   
+   
+   
+   
+   
+         
+       
+       
+        
+       
+       
+            
+    }
+	

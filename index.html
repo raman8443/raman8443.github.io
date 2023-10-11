@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="galeria.css">
+   
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+   
+     
+    <link rel="stylesheet" href="">
+
+    <title>Ramón Seijas</title>
+    <style>
+        #img{
+            display: none;
+            }
+        #img2{
+            display: none;
+            }
+    </style>  
+    
+    
+</head>
+<body>
+    <a href="https://wa.me/5491164527319" class="btn-wsp" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+    <div class="modal" id="modal">
+        <div class="contenido-modal">
+             <img src="" alt="" class="img-modal" id="img-modal">
+        </div>
+        <div class="modal-btn" id="modal-btn">X</div>
+    </div>
+   
+     
+   
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+                          
+        <div class="contenido-seccion">
+                         
+            <div  class="logo">
+                <div>
+                    <img class="anto" src="img/anto21.png" alt=""> 
+                </div>
+                <div>
+                    <img class="logo_web" src="img/logo_web.png" alt="">
+                </div>
+                               
+            </div>
+          
+                   
+           
+           
+            <div class="logo">
+                <header>
+                    <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                        <img class="encendido" src="img/botonencendido.png" alt="">
+                    </div>
+                    <nav id="nav" class="nav">
+                        <a href="index.html">Home</a>
+                        <a href="trabajos.html">Trabajos</a> 
+                        <a href="videostrabajo.html">Videos</a>
+                    </nav>
+                                     
+                </header>
+            </div>
+
+            <div class="carrousel">           
+                <div class="col-sm-1.0">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                   <img class="d-block w-10" src="img/sql2 (2).png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                   <img  class="d-block w-10" src="img/sql4.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                   <img class="d-block w-10" src="img/html1.png" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-10" src="img/sql3.png" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                   <img class="d-block w-10" src="img/visual basic.png" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-10" src="img/css3.png" alt="Third slide">
+                                 </div>
+                        </div>
+                        <div>
+                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                             </a>
+                             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                             </a>
+                       
+                              <!-- Optional JavaScript -->
+                              <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=
+                              "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity=
+                              "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity=
+                                "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+                        
+        </div>
+    </section>
+
+<!-- SECCION PERFIL-->
+
+    <div class="wrap">
+         <ul class="tabs">
+           <li><a href="#tab1"><span class="fa fa-home"></span><span class="tab-text">Perfil</span></a></li>
+           <li><a href="#tab2"><i class="fa-solid fa-user-graduate"></i></span><span class="tab-text">Educación</span></a></li>
+           <li><a href="#tab3"><span class="fa fa-briefcase"></span><span class="tab-text">Experiencia</span></a></li>
+           <li><a href="#tab4"><i class="fa-solid fa-desktop"></i></span><span class="tab-text">Proyectos</span></a></li>
+         </ul>
+        <div class="secciones">
+
+          <article class="uno" id="tab1">
+          <br>
+            <p><em><strong>FRONT END  DEVELOPER</strong></p>
+            <p>Técnico Superior en Informática, Desarrollador Front End, con conocimientos en  Programación  Orientada a Objetos (Visual net)
+                y Base de Datos(SQL SERVER). 
+                                
+              </p>
+            <p>Encuentrame en:</p>
+          
+            <a href="http://www.linkedin.com/in/ramón-antonio-seijas-espinoza-920913150"><i class="fa-brands fa-linkedin-in"></i></a>
+           
+           
+                    
+          
+            <h6 class="enlace" id="boton" onclick="mostrar();">Informacion de Contacto</h6>
+            <img class="anto1"  src="" alt="">
+            
+            <!-- SECCION MOSTRAR, OCULTAR-->
+   
+            <div id="img">
+                <img   src="img/contacto.png" width= "400px" alt="">
+             <button id="boton" onclick="ocultar();">Cerrar</button>
+            </div>
+   
+   
+   
+   
+            <script>
+                 function mostrar() {
+                   document.getElementById('img').style.display = 'block';
+                   }
+                 function ocultar() {
+                    document.getElementById('img').style.display = 'none';
+                    }
+            </script>
+           
+           
+                   
+              
+              
+              
+              
+
+          </article>
+          <article class="dos" id="tab2">
+            <img class="educacion" src="img/educacion1.png" alt="">
+            <p>FRONT END DEVELOPER</p>
+            <p>-Técnico Superior en Informática</p>
+         
+            <p>-Programador Diseño Paginas Web<br>
+                -Html, Css y JavaScript
+                -JavaScript: Herencia e Interfaces en Orientación a Objetos. <br>
+                -JavaScript: Introducción a la Orientación a Objetos. <br>
+                -JavaScript: primeros pasos con el lenguaje. <br>
+                -JS en la Web: Manipulación del DOM con JavaScript.
+                
+            </p>
+            <p>-Porgramador Visual Basic .Net
+
+            </p>
+
+                <h6 class="enlace2" id="boton" onclick="mostrar2();">Leer mas...</h6>
+                <img class="anto1"  src="" alt="">
+                
+            <!-- SECCION MOSTRAR, OCULTAR-->
+            <div id="img2">
+                <img   src="img/estudio.png" width= "430px" alt="">
+             <button id="boton" onclick="ocultar2();">Cerrar</button>
+            </div>
+            <script>
+                 function mostrar2() {
+                   document.getElementById('img2').style.display = 'block';
+                   }
+                 function ocultar2() {
+                    document.getElementById('img2').style.display = 'none';
+                    }
+            </script>
+            <p>
+               
+               
+               
+               
+               </p>
+          </article>
+          
+           
+          
+           <article class="tres" id="tab3">
+            <img class="educacion" src="img/expertice1.jpg" alt="">
+          
+          
+            <h5>Visual Basic .net,  SQL</h5>
+            
+            <h5>HTML, CSS</h5>
+          
+            <h5>JavaScript</h5>
+           
+           
+            
+            
+            </article>
+           <article class="cuatro" id="tab4">
+            <div class="proyectos"> <img class="educacion" src="img/especializacion3.jpg" alt="">
+                <h1></h1>
+                <p> <br> Actualmente me encuentro trabajando en proyectos propios 
+                    de desarrollo web con en en <em><strong>JavaScript </strong> </em> <br> <br>
+                    
+                   He creado varias páginas Web donde he implemantado todo
+                  lo que he aprendido durante mi formación  como programador Font End. <br>
+                </p>
+                              
+                              
+            </div>
+            <p> Dominio de Html, CSS y JavaScript en algunas funcionalibidades. 
+                También   tengo  experiencia sobre Visual Basic .net y Sql.
+                Lo que me hace una excelente combinación para garantizar adaptarme a cualquier
+                 proyecto y a su entorno de desarrollo.
+                
+              </p>                   
+           
+            </article>
+        </div>
+        
+    </div>
+ 
+     
+   
+
+    <!-- SECCION FIJA BANNER -->
+    <section class="bannerfijo" id="banerfijo">
+        <div class="contenido1-seccion">
+           
+            <h3 class="titulo-banner"> Diseño Web</h3>
+          
+            
+        </div>
+      
+                
+    </section>
+    
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    
+      
+  
+      
+    <section class="diferenciales">
+        <h5 class="titulo-principal"></h5>
+                
+        <div class="contenido-diferenciales">
+
+            <ul class="lista-diferenciales">
+                <li class="items">Atención personalizada a los clientes</li>
+                <li class="items">Diseños Modernos</li>
+                <li class="items">Responsive</li>
+                <li class="items">Profesional Calificado</li>
+                <li class="items">Puntualidad</li>
+                <li class="items">Compromiso</li>
+            </ul>
+            <img src="img/fondodiferenciales.jpg" class="imagen-diferenciales">
+        </div>
+          
+                   
+        <div class="columna"> 
+                <h3 class="titulo-columna">Diseños Modernos</h3> 
+               <p class="desc-columna">Lorem ipsum dolor sit amet consectetur adipisicing
+                 elit. Quis possimus molestias excepturi. Nesciunt ut, quis itaque ipsam ni
+                  fugiat cumque est dolores dolorum error perferendis, similique, aspernatu
+                  quo asperiores deserunt.</p>
+               
+               <a href="" class="btn btn—contacto">Tengo Interés</a> 
+        </div> 
+     
+        
+    </section>
+        
+        
+ 
+
+    <!-- SECCION CONTACTO -->
+    
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+           
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">11 - 25787062</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">34ramon.seijas@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i> Página Web
+                    </h2>
+                    <span class="info-contacto">ramonseijas.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <script src="modal.js"></script>
+
+</body>
+</html>
